@@ -1,0 +1,361 @@
+:root {
+  --colorBase: #ff1167;
+}
+
+* {
+  margin: 5;
+  padding: 5;
+  box-sizing: border-box;
+  font-family: 'Gotham Condensed', sans-serif;
+}
+
+header {
+  background: var(#FFFFFF);
+}
+
+.contentheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: var(#FFFFFF);
+}
+
+.imagenh {
+  width: 300px;
+  height: auto;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 400px;
+}
+
+.menu a {
+  transition: 0.5s;
+  background: #76aebc;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.menu a:hover {
+  transition: 0.5s;
+  background: #ff1167;
+  color: #ffffff;
+  
+  
+}
+
+body {
+    color: #ffffff;
+    font-weight: 300;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+ /* Fix for webkit rendering */
+    -webkit-text-size-adjust: 100%;
+    background: #7e8f9a;
+    font-family: 'Gotham Condensed', sans-serif;
+}
+
+table {
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Gotham Condensed', sans-serif;
+}
+
+tr {
+  text-align: center;
+  font-family: 'Gotham Condensed', sans-serif;
+  
+}
+
+.version_spot{
+  font-family: 'Gotham Condensed', sans-serif;
+}
+
+.vig01 {
+  width: 500px;
+  height: auto;
+}
+
+.vig01_color {
+  width: 500px;
+  height: auto;
+  color: #7e8f9a;
+}
+
+.vignette01_form {
+  width: 800px;
+  height: auto;
+  color: #7e8f9a;
+}
+
+.vignette02_form {
+  width: 1000px;
+}
+
+.vignette03_form {
+  width: 1000px;
+}
+
+.vignette04_form {
+  width: 1000px;
+}
+
+.vignette05_form {
+  width: 1000px;
+}
+
+.titulo_pagina {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+.subtitulo_pagina{
+  width: 100%;
+  font-size: 22px;
+  color: #ffffff;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.templatemo_sub_contacttitle {
+    width: 100%;
+    font-size: 22px;
+    color: #91bf24;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.templatemo_contact {
+    margin: 30px;
+    width: 100%;
+    margin-left: 15%;
+}
+
+.templatemo_contactform input, textarea {
+    width: 100%;
+    background: #7e8f9a;
+    border: 1px solid #7e8f9a;
+    padding: 7px 10px;
+    margin: 0px 0px 10px 0px;
+    background-color: #ffffff;
+}
+
+.templatemo_contactform textarea {
+    height: 50px;
+}
+
+
+.templatemo_contactform .btn-primary {
+    background: #92bf24;
+    border: none;
+    border-radius: 0px;
+    color: #3d5602;
+    font-weight: 800;
+}
+
+.templatemo_contactform .btn-primary:hover {
+    background: #a6d82c;
+    font-family: 'Gotham Condensed', sans-serif;
+}
+
+.results {
+    width: 90vw;
+    max-width: 550px;
+    margin: 8vh auto;
+  }
+
+  .input-group {
+    margin-top: 0.25rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  .contact-form label {
+    display: block;
+    color: #7e8f9a;
+    font-family: 'Gotham Condensed', sans-serif;
+    font-size: 70%;
+    line-height: 1.125;
+  }
+  
+  .group-label {
+    display: inline-block;
+    margin-right: 1rem;
+    font-size: 70%;
+  }
+  
+  .contact-form label.inline {
+    display: inline-block;
+    margin-left: 0.25rem;
+  }
+  
+  .contact-form input,
+  .contact-form select,
+  .contact-form textarea{
+    display: block;
+    margin-top: 0.25rem;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid color-gray-light;
+    width: 100%;
+    font-size: 1rem;
+    transition: 150ms border-color linear;
+  }
+  
+  .contact-form input[type=checkbox],
+  .contact-form input[type=radio] {
+    display: inline-block;
+    width: auto;
+  }
+  
+  .contact-form input[type=checkbox]:not(:first-of-type),
+  .contact-form input[type=radio]:not(:first-of-type) {
+    margin-left: 1rem;
+  }
+  
+  .contact-form input:focus,
+  .contact-form input:active {
+    border-color: #7e8f9a;
+  }
+  
+  .contact-form button {
+    display: block;
+    margin: 0.5rem 1rem 0;
+    padding: 0 1rem 0.125rem;
+    background-color: #7e8f9a;
+    border: 0;
+    color: #7e8f9a;
+    font-family: 'Gotham Condensed', sans-serif;
+    font-size: 100%;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+    text-transform: uppercase;
+    transition: 150ms all linear;
+  }
+  
+
+
+  .contact-form button:hover,
+  .contact-form button:active,
+  .contact-form button:focus {
+    background: #7e8f9a;
+    cursor: pointer;
+  }
+
+  /*footer*/
+footer{
+  position: relative;
+  background: var(--colorBase);
+}
+.conteninfo{
+  background: #ffad1f;
+  color: white;
+  text-align: center;
+  padding: 25px 0;
+}
+
+label{
+  width: 80%;
+  margin: 0 auto 10px auto;
+}
+
+/*botones*/
+.botones{
+  display: flex;
+  font-family: 'Gotham Condensed', sans-serif;
+  
+}
+.btn{
+  background: #ff1167;
+  width: 50px;
+  margin: auto;
+  border-radius: 15px;
+  border: solid;
+  border-width: 1px;
+  border-color: #7e8f9a;
+  color: #7e8f9a;
+  text-decoration: none;
+  text-align: center;
+  padding: 4px 0;
+  transition: 0.3s;
+  font-family: 'Gotham Condensed', sans-serif;
+}
+
+.error{
+  text-align: center;
+}
+
+.btn:hover{
+  transition: 0.3s;
+  background: #ff1167;
+  color: #ffffff;
+}
+
+input {
+  border: none;
+  border-bottom: solid;
+  border-width: 1px;
+  background: #F7931E;
+  width: 80%;
+  margin: 0 auto 20px auto;
+  font-size: 18px;
+}
+
+th {
+  text-align: center;
+  color: #7e8f9a;
+}
+
+.campaign_name_color, .campaign_name, .text1_color, .text1, .text2_color, .text2, .border_color, .activar_claim, .logo1_colores {
+  background: #ffffff;
+  color: #7e8f9a;
+  font-family: 'Gotham Condensed', sans-serif;
+}
+
+.activar_claim, .claim_logo1, .contenido_web, .activar_musica, .musica, .activar_web{
+  background: #ffffff;
+  color: #7e8f9a;
+  font-family: 'Gotham Condensed', sans-serif;
+}
+
+.producto1, .producto2, .color_texto, .nombre_producto, .precio, .oferta_producto, .claim_logo2, .contenido_web, .activar_claim1, .activar_claim2{
+  background: #ffffff;
+  color: #7e8f9a;
+  font-family: 'Gotham Condensed', sans-serif;
+}
+
+.name, .email, .subject, .message, .caracteristicas, .color_texto_producto1, .nombre_producto1, .precio1, .caracteristicas1, .oferta_producto1{
+  background: #ffffff;
+  color: #7e8f9a;
+  font-family: 'Gotham Condensed', sans-serif;
+}
+
+.color_texto_producto2, .nombre_producto2, .precio2, .caracteristicas2, .oferta_producto2{
+  background: #ffffff;
+  color: #7e8f9a;
+  font-family: 'Gotham Condensed', sans-serif;
+}
+
+.plataforma, .edadtarget, .genero, .emplazamiento_recomendado, .renderQuality, .nomenclaturaRenderPieza{
+  background: #ebaa34;
+  color: #c82360;
+  font-family: 'Gotham Condensed', sans-serif;
+}
+
+.version_spot, .posicion, .logo2_colores, .posicion1, .posicion2{
+  background: #77b587;
+  color: #c82360;
+  font-family: 'Gotham Condensed', sans-serif;
+}

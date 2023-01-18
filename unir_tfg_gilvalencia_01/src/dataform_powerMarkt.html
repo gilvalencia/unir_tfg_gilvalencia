@@ -1,0 +1,290 @@
+<!--TRABAJO FINAL DE GRADO INGENIERÍA INFORMÁTICA - UNIVERSIDAD INTERNACIONAL DE LA RIOJA-->
+<!--"Data-Driven Video: Automatización y Control de Proyectos Audiovisuales en Marketing y Publicidad"-->
+<!--Alumno: José Antonio Gil Valencia-->
+<!--Directora: Belén Bermejo González-->
+<!--Curso: 2022-2023-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/dataform.css"></li>
+    <title>BOM brandsOfMedia - Client Platform</title>
+    <link rel="shortcut icon" href="footage/pat_shortcut_icon.png" type="image/x-icon">
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/gotham-condensed');
+    </style>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="contentheader">
+            <img class="imagenh" src="footage/pat_client_index_negative.png">
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Salida de Plataforma</a></li>
+                    <li><a href="contacto.html">Contáctanos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+</br>
+    <section class="contact-form">
+        <div class="row">
+        <div id="templatemo_contact" class="col-md-4 gallery-contact"></div>
+        <div class="col-md-8 templatemo_contactform">
+            <div class="titulo_pagina">FORMULARIO DE DATOS para CREATIVIDAD PUBLICITARIA</div>
+            <div class="subtitulo_pagina">Cliente: PowerMarkt - Agencia Publicitaria: BOM brandsOfMedia - Campaña: Black Friday</div>
+        </br>
+            <form >
+                <table class="vignette01">
+                    <tr>
+                        <td></td>
+                        <td class="vignette01_form"></br>
+                            <select  name="version_spot" class="version_spot" id="select" id="sel1" >
+                                <option value="10">VERSIÓN SPOT: 10 segundos</option>
+                                <option value="20">VERSIÓN SPOT: 20 segundos</option>
+                            </select>
+                            <select  name="renderQuality" class="renderQuality" id="select">
+                                <option value="high">Render Quality: High Broadcast (1080p - AppleProRes 422HQ)</option>
+                                <option value="mid">Render Quality: Mid Broadcast (1080p - AppleProRes 422Proxy)</option>
+                                <option value="low">Render Quality: Mid Check Quality (960p - AppleProRes 422Proxy)</option>
+                            </select>
+                            <select  name="campaign_name_color" class="campaign_name_color" id="select" class="form-control" id="sel1" >
+                                <option value="rojo">Color Texto Campaña: ROJO</option>
+                                <option value="blanco">Color Texto Campaña: BLANCO</option>
+                                <option value="negro">Color Texto Campaña: NEGRO</option>
+                            </select>
+                            <input type="text" name="campaign_name" id="campaign_name" class="campaign_name" maxlength="20" placeholder="NOMBRE DE LA CAMPAÑA...">
+                            <select  name="text1_color" class="text1_color" id="select" id="sel1" >
+                                <option value="rojo">Color Texto 01: ROJO</option>
+                                <option value="blanco">Color Texto 01: BLANCO</option>
+                                <option value="negro">Color Texto 01: NEGRO</option>
+                            </select>
+                            <input type="text" name="text1" id="text1" class="text1" maxlength="12" placeholder="TEXTO 01...">
+                            <select  name="text2_color" class="text2_color" id="select" class="form-control" id="sel1" >
+                                <option value="rojo">Color Texto 02: ROJO</option>
+                                <option value="blanco">Color Texto 02: BLANCO</option>
+                                <option value="negro">Color Texto 02: NEGRO</option>
+                            </select>
+                            <input type="text" name="text2" id="text2" class="text2" maxlength="25"placeholder="TEXTO 02...">
+                        </td>
+                        <td class="col-2"></br>
+                            <img class="vig01" src="diapos_powerMarkt/vignette01.png">
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="vignette02_form"></br>
+                            <select  name="plataforma" class="plataforma" id="select">
+                                <option value="tvstreaming">Plataforma de Visionado: TV STREAMING</option>
+                                <option value="tvgeneralist">Plataforma de Visionado: TV GENERALISTA</option>
+                                <option value="social_network">Plataforma de Visionado: REDES SOCIALES</option>
+                            </select>
+                            <select  name="edadtarget" class="edadtarget" id="select">
+                                <option value="0-10">Edad Target: 0-10 Años</option>
+                                <option value="10-20">Edad Target: 10-20 Años</option>
+                                <option value="20-40">Edad Target: 20-40 Años</option>
+                                <option value="40-60">Edad Target: 40-60 Años</option>
+                                <option value=">60">Edad Target: Mayor de 60 Años</option>
+                            </select>
+                            <select  name="genero" class="genero" id="select">
+                                <option value="masculino">Masculino</option>
+                                <option value="femenino">Femenino</option>
+                                <option value="unisex">Unisex</option>
+                            </select>
+                            <select  name="emplazamiento_recomendado" class="emplazamiento_recomendado" id="select">
+                                <option value="opcion1">TV Streaming - Franja - Target - Programa</option>
+                                <option value="opcion2">TV Generalista - Franja - Target - Programa</option>
+                                <option value="opcion3">Redes Sociales - Franja - Target - Programa</option>
+                            </select>
+                            <select  name="border_color" class="border_color" id="select">
+                                <option value="rojo">Color Borde y Partículas: ROJO</option>
+                                <option value="blanco">Color Borde y Partículas: BLANCO</option>
+                                <option value="negro">Color Borde y Partículas: NEGRO</option>
+                            </select>
+                            <select  name="activar_claim1" class="activar_claim1" id="select">
+                                <option value="on">Claim Activo</option>
+                                <option value="off">Claim Inactivo</option>
+                            </select>
+                            <input type="text" name="claim_logo1" id="claim_logo1" class="claim_logo1" maxlength="50" placeholder="CONTENIDO DEL CLAIM...">
+                            <select  name="logo1_colores" class="logo1_colores" id="select">
+                                <option value="opcion1">Color Logo: Rojo-Blanco-Negro-Gris-Blanco</option>
+                                <option value="opcion2">Color Logo: Rojo-Blanco-Rojo-Blanco-Rojo</option>
+                                <option value="opcion3">Color Logo: Gris-Blanco-Rojo-Blanco-Gris</option>
+                            </select>
+                        </td>
+                        <td class="col-2"></br>
+                            <img class="vig01" src="diapos_powerMarkt/vignette02.png">
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="vignette03_form"></br>
+                            <select  name="posicion1" class="posicion1" id="select">
+                                <option value="right">POSICIÓN DE OFERTA: Derecha</option>
+                                <option value="left">POSICIÓN DE OFERTA: Izquierda</option>
+                            </select>
+                            <select  name="producto1" class="producto1" id="select">
+                                <option value="altavozJBL">PRODUCTO: Altavoz Portátil</option>
+                                <option value="altavozSmallJBL">PRODUCTO: Altavoz Portátil Smartphones</option>
+                                <option value="aspiradora">PRODUCTO: Aspiradora Potencia 5hp</option>
+                                <option value="aspiradoraRobot">PRODUCTO: Robot Aspiradora</option>
+                                <option value="cafeteraDeLonghi">PRODUCTO: Cafetera SuperAutomática</option>
+                                <option value="cafeteraNespresso">PRODUCTO: Cafetera de Cápsulas Espresso</option>
+                                <option value="depiladora">PRODUCTO: Depiladora Semiautomática</option>
+                                <option value="earphoneWireless">PRODUCTO: Auriculares Inalámbricos</option>
+                                <option value="ipod">PRODUCTO: iPod Nano Versión 2023</option>
+                                <option value="mandoXbox">PRODUCTO: Mando Gaming Personalizable</option>
+                                <option value="planchaPelo">PRODUCTO: Plancha para Pelo 230 grados</option>
+                                <option value="drone">PRODUCTO: Drone 4K</option>
+                                <option value="earphone">PRODUCTO: Gaming Earphone</option>
+                                <option value="patinete">PRODUCTO: Patinete</option>
+                                <option value="camara">PRODUCTO: Cámara Reflex</option>
+                                <option value="smartphone">PRODUCTO: SmartPhone</option>
+                                <option value="classicWatch">PRODUCTO: Smart Watch Estilo Clásico</option>
+                                <option value="watch">PRODUCTO: Smart Watch Hombre</option>
+                            </select>
+                            <select  name="color_texto_producto1" class="color_texto_producto1" id="select">
+                                <option value="rojo">Color Texto: ROJO</option>
+                                <option value="blanco">Color Texto: BLANCO</option>
+                                <option value="negro">Color Texto: NEGRO</option>
+                            </select>
+                            <input type="text" name="nombre_producto1" id="nombre_producto1" class="nombre_producto1" maxlength="30" placeholder="NOMBRE DEL PRODUCTO...">
+                            <input type="text" name="precio1" id="precio1" class="precio1" maxlength="5" placeholder="PRECIO DEL PRODUCTO...">
+                            <textarea name="caracteristicas1" class="caracteristicas1" maxlength="70" placeholder="CARACTERÍSTICAS DEL PRODUCTO... " id="caracteristicas1"></textarea>
+                            <input type="text" name="oferta_producto1" id="oferta_producto1" class="oferta_producto" maxlength="10" placeholder="OFERTA DEL PRODUCTO...">
+                        </td>
+                        <td class="col-2"></br>
+                            <img class="vig01" src="diapos_powerMarkt/vignette03.png">
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="vignette04_form"></br>
+                            <select  name="posicion2" class="posicion2" id="select">
+                                <option value="right">POSICIÓN DE OFERTA: Derecha</option>
+                                <option value="left">POSICIÓN DE OFERTA: Izquierda</option>
+                            </select>
+                            <select  name="producto2" class="producto2" id="select">
+                                <option value="altavozJBL">PRODUCTO: Altavoz Portátil</option>
+                                <option value="altavozSmallJBL">PRODUCTO: Altavoz Portátil Smartphones</option>
+                                <option value="aspiradora">PRODUCTO: Aspiradora Potencia 5hp</option>
+                                <option value="aspiradoraRobot">PRODUCTO: Robot Aspiradora</option>
+                                <option value="cafeteraDeLonghi">PRODUCTO: Cafetera SuperAutomática</option>
+                                <option value="cafeteraNespresso">PRODUCTO: Cafetera de Cápsulas Espresso</option>
+                                <option value="depiladora">PRODUCTO: Depiladora Semiautomática</option>
+                                <option value="earphoneWireless">PRODUCTO: Auriculares Inalámbricos</option>
+                                <option value="ipod">PRODUCTO: iPod Nano Versión 2023</option>
+                                <option value="mandoXbox">PRODUCTO: Mando Gaming Personalizable</option>
+                                <option value="planchaPelo">PRODUCTO: Plancha para Pelo 230 grados</option>
+                                <option value="drone">PRODUCTO: Drone 4K</option>
+                                <option value="earphone">PRODUCTO: Gaming Earphone</option>
+                                <option value="patinete">PRODUCTO: Patinete</option>
+                                <option value="camara">PRODUCTO: Cámara Reflex</option>
+                                <option value="smartphone">PRODUCTO: SmartPhone</option>
+                                <option value="classicWatch">PRODUCTO: Smart Watch Estilo Clásico</option>
+                                <option value="watch">PRODUCTO: Smart Watch Hombre</option>
+                            </select>
+                            <select  name="color_texto_producto2" class="color_texto_producto2" id="select">
+                                <option value="rojo">Color Texto: ROJO</option>
+                                <option value="blanco">Color Texto: BLANCO</option>
+                                <option value="negro">Color Texto: NEGRO</option>
+                            </select>
+                            <input type="text" name="nombre_producto2" id="nombre_producto2" class="nombre_producto2" maxlength="30" placeholder="NOMBRE DEL PRODUCTO...">
+                            <input type="text" name="precio2" id="precio2" class="precio2" maxlength="5" placeholder="PRECIO DEL PRODUCTO...">
+                            <textarea name="caracteristicas2" class="caracteristicas2" maxlength="70" placeholder="CARACTERÍSTICAS DEL PRODUCTO... " id="caractersticas2"></textarea>
+                            <input type="text" name="oferta_producto2" id="oferta_producto2" class="oferta_producto" maxlength="10" placeholder="OFERTA DEL PRODUCTO...">
+                        </td>
+                        <td class="col-2"></br>
+                            <img class="vig01" src="diapos_powerMarkt/vignette04.png">
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="vignette05_form"></br>
+                            <select  name="logo2_colores" class="logo2_colores" id="select">
+                                <option value="opcion1">Color Logo: Rojo-Blanco-Negro-Gris-Blanco</option>
+                                <option value="opcion2">Color Logo: Rojo-Blanco-Rojo-Blanco-Rojo</option>
+                                <option value="opcion3">Color Logo: Blanco-Gris-Blanco-Gris-Blanco</option>
+                            </select>
+                            <select  name="activar_claim2" class="activar_claim2" id="select" >
+                                <option value="on">Claim Activo</option>
+                                <option value="off">Claim Inactivo</option>
+                            </select>
+                            <input type="text" name="claim_logo2" id="claim_logo1" class="claim_logo2" maxlength="40" placeholder="CONTENIDO DEL CLAIM...">
+                            <select  name="activar_web" class="activar_web" id="select">
+                                <option value="on">Web Activa</option>
+                                <option value="off">Web Inactiva</option>
+                            </select>
+                            <input type="text" name="contenido_web" id="contenido_web" class="contenido_web" maxlength="40" placeholder="PÁGINA WEB DEL NEGOCIO...">
+                            <select  name="activar_musica" class="activar_musica" id="select">
+                                <option value="on">Música Activa</option>
+                                <option value="off">Música Inactiva</option>
+                            </select>
+                            <select  name="musica" class="musica" id="select">
+                                <option value="intensa">Música Versión Intensa</option>
+                                <option value="leve">Música Versión Leve</option>
+                                <option value="navidad">Música Navidad</option>
+                            </select>
+                            <input type="text" name="nomenclaturaRenderPieza" id="nomenclaturaRenderPieza" class="nomenclaturaRenderPieza" maxlength="20" placeholder="NOMBRE RENDERIZADO PIEZA...">
+                        </td>
+                        <td class="col-2"></br>
+                            <img class="vig01" src="diapos_powerMarkt/vignette05.png">
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <br> 
+                            <h2 class="aviso">Rellene cada casilla del formulario</h2>
+                            <h3 class="aviso">Asegúrese de las limitaciones en cada casilla, y presione "Enviar Correo Electrónico" para hacer llegar el envío a la Agencia de Medios</h3>  
+                            <input type="text" name="name" id="name" class="name" placeholder="NOMBRE">
+                            <input type="text" name="mail" id="mail" class="email" placeholder="CORREO">
+                            <input type="text" name="phone" id="subject" class="subject" placeholder="TEL&Eacute;FONO">
+                            <textarea name="message" class="message" placeholder="MENSAJE ... " id="message"></textarea>
+                        </td>
+                        <td>
+                            <h2 class="aviso">Observe la CREATIVIDAD ORIGINAL</h2>
+                            <h3 class="aviso">Para una mayor seguridad en su creatividad</h3>
+                            <iframe width="500" height="281" src="https://www.youtube.com/embed/I_8-lCbicYw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <div class="botones">
+                                <input name="btnenviar" type="submit" value="Enviar Correo Electrónico y Generar Creatividad" class="btn">
+                            </div>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+
+        <div class="vignette01">
+
+        </div>
+
+    </section>
+
+    <script src="javascript/script_powermarkt.js"></script> 
+    
+    <footer>
+        <div class="conteninfo">
+            <img class="imagenh" src="footage/pat_client_index_negative.png">
+            <p>Página Diseñada por JaGV | Todos los Derechos Reservados | 2023</p>
+            
+        </div>
+    </footer>
+
+</body>
+</html>
