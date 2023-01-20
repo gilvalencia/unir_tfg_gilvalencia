@@ -51,6 +51,16 @@ ________________________________________________________________________________
     </li>
     <img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/cf86e3e74c3ae6c5838831ca4d083cb4b3c1c54e/gifs_explicativos_proyecto/linea1529.jpg"   width="500"/>
   </ul>
+  <ul>
+    <h5>ARCHIVO .CMD DE TERMINAL "unir_tfg_gilvalencia_01/ae_projects/open_ae_script.cmd":</h5>
+    <li>
+      LÍNEA 3: Si al instalar Adobe After Effects lo ha ubicado en una ruta diferente a la establecida por defecto en la instalación, debe cambiar la ruta donde se encuentre el ejecutable ".exe" de la aplicación. Si no es así, por defecto es la ruta indicada en "Support Files"
+    </li>
+     <li>
+      LÍNEA 4: corregir el path de ubicación del archivo "unir_tfg_gilvalencia_01/src/exts_scripts/script_powerMarkt.js"
+    </li>
+     <img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/c9c9a79f64da8b1e7dcb39f20edfc5bbf52fa0f6/gifs_explicativos_proyecto/script_Terminal.jpg"   width="500"/>
+  </ul>
 </ul>
 __________________________________________________________________________________________________________________________________________________
 <h4>CONFIGURACIÓN ADOBE AFTER EFFECTS</h4>
@@ -187,8 +197,35 @@ ________________________________________________________________________________
 __________________________________________________________________________________________________________________________________________________
 <h4>CONFIGURACIÓN AUTOHOTKEY</h4>
 
+<ul>
+  <h5>1.-MODIFICAR ARCHIVO "unir_tfg_gilvalencia_01/src/json/_openAE_script.ahk"</h5>
+    <li>
+      <h5>LÍNEA 24: corregir la ubicación del archivo script de la terminal .cmd "unir_tfg_gilvalencia_01/ae_projects/open_ae_script.cmd" </h5>
+    </li>
+  <img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/95530542171da16fa1a6b801c69f38503398e248/gifs_explicativos_proyecto/autoHotKey.jpg"/>
+</ul>
 
+__________________________________________________________________________________________________________________________________________________
+<h3>INICIO DE LA APLICACIÓN WEB</h3>
 
-
+<ul>
+  <h5>Una vez ajustada la máquina, podemos comenzar a utilizar la aplicación</h5>
+    <li>
+      <h5>Abrir el navegador por defecto de su máquina, y establecer la URL "http://localhost:9090/", o el número de puerto que pusiera en la configuración del servidor "php-apache" en Docker</h5>
+    </li>
+  <img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/55e0c9ffce63a711fb19c5e74140c6456bd6b90a/gifs_explicativos_proyecto/usoAplicacion01.gif"/>
+    <li>
+      <h5>Introducir usuario y contraseña en el "login" de la plataforma de la Agencia de Publicidad ("Brands Of Media", agencia ficticia para este trabajo)</h5>
+    </li>
+  <img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/55e0c9ffce63a711fb19c5e74140c6456bd6b90a/gifs_explicativos_proyecto/usoAplicacion02.gif"/>
+    <li>
+      <h5>Una vez dentro, rellenar el formulario web de la creatividad de la campaña de la marca ("PowerMarkt", anunciante ficticio para este trabajo)</h5>
+    </li>
+  <img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/55e0c9ffce63a711fb19c5e74140c6456bd6b90a/gifs_explicativos_proyecto/usoAplicacion03.gif"/>
+    <li>
+      <h5>Cuando finalice, se efectúa el envío para la ejecución de la pieza en el software creativo audiovisual</h5>
+    </li>
+  <img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/55e0c9ffce63a711fb19c5e74140c6456bd6b90a/gifs_explicativos_proyecto/usoAplicacion04.gif"/>
+</ul>
 
 
