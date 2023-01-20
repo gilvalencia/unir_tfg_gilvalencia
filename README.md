@@ -62,7 +62,9 @@ ________________________________________________________________________________
     </li>
     <li>
       <h5>Cargamos el archivo "renderQuality_presets.ars", con todos los presets de renderizado necesarios para la ejecución de la aplicación</h5>
-      ![](ingreso de plantillas presets render.gif)
+      ![]gifs_explicativos_proyecto/ingreso de plantillas presets render.gif
+      ![](gifs_explicativos_proyecto/ingreso de plantillas presets render.gif)
+      gifs_explicativos_proyecto/ingreso de plantillas presets render.gif
     </li>
 </ul>
 <ul>
