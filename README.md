@@ -35,11 +35,11 @@ ________________________________________________________________________________
   <ul>
     <h5>ARCHIVO "src/exts_scripts/script_powerMarkt.js":</h5>
     <li>
-      LÍNEA 21: introducir el path donde se encuentre el proyecto de Adobe After Effects en la máquina (FICHERO "unir_tfg_gilvalencia_AE/AE")
+      LÍNEA 21: corregir el path donde se encuentre el proyecto de Adobe After Effects en la máquina (FICHERO "unir_tfg_gilvalencia_AE/AE")
     </li>
      <img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/cf86e3e74c3ae6c5838831ca4d083cb4b3c1c54e/gifs_explicativos_proyecto/linea21.jpg"   width="500"/>
     <li>
-      LÍNEA 200: ingresar el path donde se encuentra el material "products" en la máquina (FICHERO "unir_tfg_gilvalencia_AE/footage/products")
+      LÍNEA 200: corregir el path donde se encuentra el material "products" en la máquina (FICHERO "unir_tfg_gilvalencia_AE/footage/products")
     </li>
     <img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/cf86e3e74c3ae6c5838831ca4d083cb4b3c1c54e/gifs_explicativos_proyecto/linea200.jpg"   width="500"/>
     <li>
@@ -47,7 +47,7 @@ ________________________________________________________________________________
     </li>
     <img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/cf86e3e74c3ae6c5838831ca4d083cb4b3c1c54e/gifs_explicativos_proyecto/linea1489.jpg"   width="500"/>
     <li>
-      LÍNEA 1529: ingresar el path donde se almacenen los archivos JSON (FICHERO "unir_tfg_gilvalencia_01\\src\\json\\template_powermarkt.json")
+      LÍNEA 1529: corregir el path donde se almacenan los archivos JSON (FICHERO "unir_tfg_gilvalencia_01\\src\\json\\template_powermarkt.json")
     </li>
     <img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/cf86e3e74c3ae6c5838831ca4d083cb4b3c1c54e/gifs_explicativos_proyecto/linea1529.jpg"   width="500"/>
   </ul>
@@ -114,37 +114,74 @@ ________________________________________________________________________________
 <ul>
   <h5>2.-EJECUCIÓN DEL ARCHIVO "docker-compose.yml" DESDE LA TERMINAL</h5>
     <li>
-      <h5>Para la evaluación de la aplicación, el acceso "login" a la plataforma se ha realizado con un solo usuario y contraseña</h5>
+      <h5>Dentro de la terminal, accedemos con el comando "cd" a la ruta en la que se encuentre el archivo "docker-compose.yml"</h5>
+    </li>
+     <img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/ff7083e93522fea9c16b186cf8bb5d340098381a/gifs_explicativos_proyecto/accesoRaizProyecto_1.gif"/>
+    <li>
+      <h5>Una vez en dicha ruta, ejecutamos el "docker-compose.yml" con el comando "docker-composer up -d"</h5>
     </li>
     <li>
-      <h5>Antes de correr la aplicación, deberá insertarlo dentro de la base de datos a través de la terminal</h5>
-    </li>
-    <li>
-      <h5>Antes de correr la aplicación, deberá insertarlo dentro de la base de datos a través de la terminal</h5>
+      <h5>Cuando termine el proceso, estará creado el servidor "php-apache"</h5>
     </li>
 </ul>
 <ul>
   <h5>3.-CONFIRMAR QUE SE ESTÁN EJECUTANDO LOS CUATRO CONTENEDORES DESDE TERMINAL Y LA APLICACIÓN "Docker Desktop"</h5>
     <li>
-      <h5>Para la evaluación de la aplicación, el acceso "login" a la plataforma se ha realizado con un solo usuario y contraseña</h5>
+      <h5>Desde la terminal, ejecutamos el cmd "docker ps" para ver qué contenedores están en ejecución. Deben estar los cuatro contenedores creados</h5>
     </li>
+  <img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/c673f5a398945cb03f999571743319f1e3ffcf05/gifs_explicativos_proyecto/contenedoresUpDocker_1.gif"/>
     <li>
-      <h5>Antes de correr la aplicación, deberá insertarlo dentro de la base de datos a través de la terminal</h5>
+      <h5>En la aplicación "Docker Desktop", aparecerán los proyectos guardados en "Docker". Al abrir la raíz del nuestro, aparecerán los cuatro contenedores creados</h5>
     </li>
-    <li>
-      <h5>Antes de correr la aplicación, deberá insertarlo dentro de la base de datos a través de la terminal</h5>
-    </li>
+    <img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/c673f5a398945cb03f999571743319f1e3ffcf05/gifs_explicativos_proyecto/dockerDesktop_1.gif"/>
 </ul>
 <ul>
-  <h5>4.-CREACIÓN DE DATABASE CON USUARIO Y CONTRASEÑA</h5>
+  <h5>4.-ACCESO A BASE DE DATOS E INSERCIÓN DE USUARIO Y CONTRASEÑA PARA EL ACCESO A LA PLATAFORMA</h5>
     <li>
       <h5>Para la evaluación de la aplicación, el acceso "login" a la plataforma se ha realizado con un solo usuario y contraseña</h5>
     </li>
     <li>
       <h5>Antes de correr la aplicación, deberá insertarlo dentro de la base de datos a través de la terminal</h5>
     </li>
+    <img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/a94c50f9c67f500f307d391b5228698f042374c3/gifs_explicativos_proyecto/database_01.gif"/>
     <li>
-      <h5>Antes de correr la aplicación, deberá insertarlo dentro de la base de datos a través de la terminal</h5>
+      <h5>Acceder a la base de datos con el comando "docker exec -it db /bin/bash</h5>
+    </li>
+    <li>
+      <h5>El contenedor solicitará el acceso "root", donde añadimos la expresión de acceso "mysql -uroot -p"</h5>
+    </li>
+    <li>
+      <h5>La contraseña de acceso es la indicada en el archivo "docker-compose.yml" en el momento de la creación del contenedor. En nuestro caso, para esta aplicación se generó la contraseña "brandsofmedia", en referencia a la Agencia de Publicidad ficticia generada para este proyecto TFG</h5>
+    </li>
+  <img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/a94c50f9c67f500f307d391b5228698f042374c3/gifs_explicativos_proyecto/database_02.gif"/>
+    <li>
+      <h5>Una vez dentro de la base de datos, solicitamos mostrar las bases de datos existentes con el comando "show databases;"</h5>
+    </li>
+    <li>
+      <h5>Crearemos una nueva llamada "usuarios", mediante el comando "create database usuarios;"</h5>
+    </li>
+    <li>
+      <h5>Al usar de nueva el comando "show databases;" veremos que ya está creada</h5>
+    </li>
+  <img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/a94c50f9c67f500f307d391b5228698f042374c3/gifs_explicativos_proyecto/database_03.gif"/>
+    <li>
+      <h5>Seleccionamos utilizar nuestra base de datos creada, con el comando "use usuarios;"</h5>
+    </li>
+    <li>
+      <h5>Y creamos una nueva tabla llamada "clientes", con el comando "create table clientes(username varchar(40) primary key not null, password varchar(40));"</h5>
+    </li>
+    <li>
+      <h5>Una vez creada la tabla, la mostramos para comprobar que se ha creado, con el comando "show tables;"</h5>
+    </li>
+    <li>
+      <h5>Finalmente, introducimos un nuevo "username" y su "password" correspondiente en dicha tabla. Seleccionamos la tabla con "select * from clientes;"</h5>
+    </li>
+    <li>
+      <h5>Y, a continuación, insertamos los datos con "insert into clientes values ('powerMarkt_ddv', 'brandsOfMedia_pM');"</h5>
+    </li>
+  <img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/a94c50f9c67f500f307d391b5228698f042374c3/gifs_explicativos_proyecto/database_04.gif"/>
+    <li>
+      <h5>Cuando seleccionamos de nuevo la tabla "clientes", "select * from clientes;", aparecerán los datos insertados en la tabla</h5>
     </li>
 </ul>
 __________________________________________________________________________________________________________________________________________________
