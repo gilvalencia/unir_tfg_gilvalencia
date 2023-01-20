@@ -62,7 +62,7 @@ ________________________________________________________________________________
     </li>
     <li>
       <h5>Cargamos el archivo "renderQuality_presets.ars", con todos los presets de renderizado necesarios para la ejecución de la aplicación</h5>
-      
+      <img src="URL o nombre del archivo"/>
     </li>
 </ul>
 <ul>
