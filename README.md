@@ -64,6 +64,22 @@ ________________________________________________________________________________
       <h5>Cargamos el archivo "renderQuality_presets.ars", con todos los presets de renderizado necesarios para la ejecución de la aplicación</h5>
     </li>
 </ul>
+<ul>
+  <h5>2.-COMPROBAR LOS AJUSTES EN VENTANA DE PROCESAMIENTO</h5>
+    <li>
+      <h5></h5>
+    </li>
+    <li>
+      <h5></h5>
+    </li>
+    <li>
+      <h5></h5>
+    </li>
+    <li>
+      <h5></h5>
+    </li>
+</ul>
+
 
 
 
