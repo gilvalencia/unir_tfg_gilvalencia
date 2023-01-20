@@ -39,12 +39,33 @@ ________________________________________________________________________________
       LÍNEA 200: ingresar el path donde se encuentra el material "products" en la máquina (FICHERO "unir_tfg_gilvalencia_AE/footage/products")
     </li>
     <li>
-      LÍNEAS 1489-1492-1495: presets de renderizado del módulo de salida de After Effects.
+      LÍNEAS 1489-1492-1495: presets de renderizado del módulo de salida de After Effects (VER EN "AJUSTES DE PROYECTO ADOBE AFTER EFFECTS)
     </li>
     <li>
       LÍNEA 1529: ingresar el path donde se almacenen los archivos JSON (FICHERO "unir_tfg_gilvalencia_01\\src\\json\\template_powermarkt.json")
     </li>
   </ul>
-
 </ul>
+__________________________________________________________________________________________________________________________________________________
+<h4>AJUSTES DE PROYECTO ADOBE AFTER EFFECTS</h4>
+
+<ul>
+  <h5>1.-CARGAR EN PROGRAMA PRESETS DE RENDERIZADO</h5>
+    <li>
+      <h5>Es necesario instalar los presets de renderizado, ya que a ellos se hace referencia en el formulario web y en el archivo JSON generado. Si no estuviesen instalados, la lectura de los mismos no se realiza y se paraliza la ejecución de la pieza</h5>
+    </li>
+    <li>
+      <h5>Una vez instalado el software Adobe After Effects, lo ejecutamos. Una vez abierto, cargamos el archivo ".ars" ubicado en la ruta  "unir_tfg_gilvalencia_AE/renderQuality_presets/renderQuality_presets.ars"</h5>
+    </li>
+    <li>
+      <h5>Dentro de Adobe AE, seguimos la ruta "Edición/Plantillas/Ajustes de Procesamiento/Cargar..."</h5>
+    </li>
+    <li>
+      <h5>Cargamos el archivo "renderQuality_presets.ars", con todos los presets de renderizado necesarios para la ejecución de la aplicación</h5>
+    </li>
+</ul>
+
+
+
+
 
