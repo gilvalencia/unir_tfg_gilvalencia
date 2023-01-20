@@ -12,6 +12,7 @@ ________________________________________________________________________________
 <h5> Para poder ejecutar el código fuente de la arquitectura propuesta, existen dos ficheros necesarios para ejecutarlo en la máquina destino:</h5>
 <ul><h5>-->"unir_tfg_gilvalencia_01": recoge todo el código de la aplicación (Front-End, Back-End y docker-compose para ejecutar los contenedores necesarios y crear el servidor "php-apache" (FICHERO ACCESIBLE EN ESTE MISMO REPOSITORIO)</h5></ul>
 <ul><h5>-->"unir_tfg_gilvalencia_AE": incluye proyecto de Adobe After Effects y los materiales de la pieza audiovisual (<a href="https://drive.google.com/file/d/1AQxBwFAhkOlMAtq45poeyL-uN3n3Vma8/view?usp=share_link">FICHERO DESCARGABLE DESDE ESTE ENLACE</a>)</h5></ul>
+<img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/10b07f0203fe1161237aa7ce3ded921093311f53/gifs_explicativos_proyecto/FicherosNecesarios.jpg"   width="500"/>
 __________________________________________________________________________________________________________________________________________________
 <h4>APLICACIONES NECESARIAS</h4>
 
@@ -19,11 +20,12 @@ ________________________________________________________________________________
 <ul><h5>--><a href="https://www.docker.com/products/docker-desktop/">Docker Desktop</a></h5></ul>
 <ul><h5>--><a href="https://www.adobe.com/es/products/aftereffects.html">Adobe After Effects</a></h5></ul>
 <ul><h5>--><a href="https://www.autohotkey.com/">AutoHotkey</a></h5></ul>
+<img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/c16f632f1e35e792ddae52aeba52d8d1f94009ac/gifs_explicativos_proyecto/LogosAplicaciones.png"   width="500"/>
 __________________________________________________________________________________________________________________________________________________
-<h4>PROCEDIMIENTO</h4>
+<h4>PROCEDIMIENTO DE CONFIGURACIÓN</h4>
 
 <ul>
-  <h5>1.-UBICACIÓN DE LOS FICHEROS</h5>
+  <h5>1.-ALOJAMIENTO DE FICHEROS</h5>
     <li>
       <h5>Una vez descargados los dos ficheros, almacenar ambos en la misma ruta (Recomendación: raíz del sistema en Windows(C:)</h5>
     </li>
@@ -33,17 +35,21 @@ ________________________________________________________________________________
   <ul>
     <h5>ARCHIVO "src/exts_scripts/script_powerMarkt.js":</h5>
     <li>
-      LÍNEA 20: introducir el path donde se encuentre el proyecto de Adobe After Effects en la máquina (FICHERO "unir_tfg_gilvalencia_AE/AE")
+      LÍNEA 21: introducir el path donde se encuentre el proyecto de Adobe After Effects en la máquina (FICHERO "unir_tfg_gilvalencia_AE/AE")
     </li>
+     <img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/cf86e3e74c3ae6c5838831ca4d083cb4b3c1c54e/gifs_explicativos_proyecto/linea21.jpg"   width="500"/>
     <li>
       LÍNEA 200: ingresar el path donde se encuentra el material "products" en la máquina (FICHERO "unir_tfg_gilvalencia_AE/footage/products")
     </li>
+    <img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/cf86e3e74c3ae6c5838831ca4d083cb4b3c1c54e/gifs_explicativos_proyecto/linea200.jpg"   width="500"/>
     <li>
       LÍNEAS 1489-1492-1495: presets de renderizado del módulo de salida de After Effects (VER EN "AJUSTES DE PROYECTO ADOBE AFTER EFFECTS)
     </li>
+    <img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/cf86e3e74c3ae6c5838831ca4d083cb4b3c1c54e/gifs_explicativos_proyecto/linea1489.jpg"   width="500"/>
     <li>
       LÍNEA 1529: ingresar el path donde se almacenen los archivos JSON (FICHERO "unir_tfg_gilvalencia_01\\src\\json\\template_powermarkt.json")
     </li>
+    <img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/cf86e3e74c3ae6c5838831ca4d083cb4b3c1c54e/gifs_explicativos_proyecto/linea1529.jpg"   width="500"/>
   </ul>
 </ul>
 __________________________________________________________________________________________________________________________________________________
@@ -62,22 +68,23 @@ ________________________________________________________________________________
     </li>
     <li>
       <h5>Cargamos el archivo "renderQuality_presets.ars", con todos los presets de renderizado necesarios para la ejecución de la aplicación</h5>
-      <img src="URL o nombre del archivo"/>
+      <img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/main/gifs_explicativos_proyecto/ingreso%20de%20plantillas%20presets%20render.gif"/>
     </li>
 </ul>
 <ul>
   <h5>2.-COMPROBAR LOS AJUSTES EN VENTANA DE PROCESAMIENTO</h5>
     <li>
-      <h5></h5>
+      <h5>Dentro de un nuevo proyecto, sin guardar, cree una nueva composición.</h5>
+    </li>
+    <img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/00ad3c33f03a1b738232d1858792bd5d6312237b/gifs_explicativos_proyecto/chequeoPresets_1.gif"/>
+    <li>
+      <h5>Una vez creada la composición, seleccione Composición/Añadir a la Cola de Procesamiento"</h5>
     </li>
     <li>
-      <h5></h5>
+      <h5>Una vez en la Cola de Procesamiento, en el apartado "Módulo de Salida", desplegamos la pestaña para ver los presets de renderizado</h5>
     </li>
     <li>
-      <h5></h5>
-    </li>
-    <li>
-      <h5></h5>
+      <h5>Dentro de estos presets tienen que estar los referentes a las líneas LÍNEAS 1489-1492-1495 del script "script_powerMarkt.js"</h5>
     </li>
 </ul>
 
