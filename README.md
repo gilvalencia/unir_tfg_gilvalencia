@@ -53,7 +53,7 @@ ________________________________________________________________________________
   </ul>
 </ul>
 __________________________________________________________________________________________________________________________________________________
-<h4>AJUSTES DE PROYECTO ADOBE AFTER EFFECTS</h4>
+<h4>CONFIGURACIÓN ADOBE AFTER EFFECTS</h4>
 
 <ul>
   <h5>1.-CARGAR EN PROGRAMA PRESETS DE RENDERIZADO</h5>
@@ -86,7 +86,69 @@ ________________________________________________________________________________
     <li>
       <h5>Dentro de estos presets tienen que estar los referentes a las líneas LÍNEAS 1489-1492-1495 del script "script_powerMarkt.js"</h5>
     </li>
+     <li>
+      <h5>Se cierra la aplicación, y Adobe After Effects estaría listo para su ejecución</h5>
+    </li>
 </ul>
+__________________________________________________________________________________________________________________________________________________
+<h4>CONFIGURACIÓN DOCKER</h4>
+
+<ul>
+  <h5>1.-CONFIGURACIÓN DE PUERTOS DE LOS CONTENEDORES EN ARCHIVO "docker-compose.yml"</h5>
+    <li>
+      <h5>Por defecto, viene configurado para el puerto 9090 de su máquina</h5>
+    </li>
+  <img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/83f1116eacf030bb82414cc44b18ab3eb826bf7a/gifs_explicativos_proyecto/puertoPhpApache.jpg"   width="500"/>
+    <li>
+      <h5>Si tuviera otro servidor corriendo en ese puerto, tendría que modificarlo</h5>
+    </li>
+    <li>
+      <h5>Lo mismo ocurre con la base de datos "MySQL" (puerto 3306), la aplicación "phpMyAdmin" (puerto 8090) y el contenedor "Mailhog" (puerto 8025)</h5>
+    </li>
+  <img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/83f1116eacf030bb82414cc44b18ab3eb826bf7a/gifs_explicativos_proyecto/puertoMySQLdatabase.jpg"   width="500"/>
+    <li>
+      <h5>Si modifica el puerto de la base de datos "MySQL", tendrá que modificar dicho puerto también en el archivo "conexion.php" (LÍNEA 14), ubicado en "unir_tfg_gilvalencia_01/src/conexion.php"</h5>
+    <img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/aba93215dcdb4a1b7b5d6da28c7e240cb22491ab/gifs_explicativos_proyecto/modificacionPuertoDataBase.jpg"   width="500"/>
+    </li>
+</ul>
+<ul>
+  <h5>2.-EJECUCIÓN DEL ARCHIVO "docker-compose.yml" DESDE LA TERMINAL</h5>
+    <li>
+      <h5>Para la evaluación de la aplicación, el acceso "login" a la plataforma se ha realizado con un solo usuario y contraseña</h5>
+    </li>
+    <li>
+      <h5>Antes de correr la aplicación, deberá insertarlo dentro de la base de datos a través de la terminal</h5>
+    </li>
+    <li>
+      <h5>Antes de correr la aplicación, deberá insertarlo dentro de la base de datos a través de la terminal</h5>
+    </li>
+</ul>
+<ul>
+  <h5>3.-CONFIRMAR QUE SE ESTÁN EJECUTANDO LOS CUATRO CONTENEDORES DESDE TERMINAL Y LA APLICACIÓN "Docker Desktop"</h5>
+    <li>
+      <h5>Para la evaluación de la aplicación, el acceso "login" a la plataforma se ha realizado con un solo usuario y contraseña</h5>
+    </li>
+    <li>
+      <h5>Antes de correr la aplicación, deberá insertarlo dentro de la base de datos a través de la terminal</h5>
+    </li>
+    <li>
+      <h5>Antes de correr la aplicación, deberá insertarlo dentro de la base de datos a través de la terminal</h5>
+    </li>
+</ul>
+<ul>
+  <h5>4.-CREACIÓN DE DATABASE CON USUARIO Y CONTRASEÑA</h5>
+    <li>
+      <h5>Para la evaluación de la aplicación, el acceso "login" a la plataforma se ha realizado con un solo usuario y contraseña</h5>
+    </li>
+    <li>
+      <h5>Antes de correr la aplicación, deberá insertarlo dentro de la base de datos a través de la terminal</h5>
+    </li>
+    <li>
+      <h5>Antes de correr la aplicación, deberá insertarlo dentro de la base de datos a través de la terminal</h5>
+    </li>
+</ul>
+__________________________________________________________________________________________________________________________________________________
+<h4>CONFIGURACIÓN AUTOHOTKEY</h4>
 
 
 
