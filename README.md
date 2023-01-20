@@ -204,6 +204,13 @@ ________________________________________________________________________________
     </li>
   <img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/95530542171da16fa1a6b801c69f38503398e248/gifs_explicativos_proyecto/autoHotKey.jpg"/>
 </ul>
+<ul>
+  <h5>2.-EJECUTAR ARCHIVO CON LA APLICACIÓN AUTOHOTKEY "unir_tfg_gilvalencia_01/src/json/_openAE_script.ahk"</h5>
+    <li>
+      <h5>Esto arrancará la aplicación y permanecerá escuchando cualquier actividad que detone el script</h5>
+    </li>
+  <img src="https://github.com/gilvalencia/unir_tfg_gilvalencia/blob/788246d6fce15e1159bc88620d5a2dbb3e3d0c79/gifs_explicativos_proyecto/autoHoyKey_1.gif"/>
+</ul>
 
 __________________________________________________________________________________________________________________________________________________
 <h3>INICIO DE LA APLICACIÓN WEB</h3>
